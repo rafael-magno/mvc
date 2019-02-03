@@ -7,6 +7,7 @@
     <title>Cliente</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawsome.css">
     <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery-ui.js"></script>
     <script type="text/javascript" src="assets/js/meiomask.js"></script>
@@ -16,6 +17,7 @@
 </head>
 <body>
     <div class="container">
+        <i class="fas fa-mobile-alt"></i>
         <?php if ($clienteEdit->getIdcliente()): ?>
             <a href="Cliente">Novo Cliente</a>
         <?php endif ?>
